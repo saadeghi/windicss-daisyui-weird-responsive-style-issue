@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "windicss --preflight --config windi.config.js -o output.css --dev",
+    "build": "windicss --preflight --config windi.config.js -o output.css --minify"
+  },
+  "devDependencies": {
+    "daisyui": "^1.13.2",
+    "windicss": "^3.1.7"
+  }
+}
